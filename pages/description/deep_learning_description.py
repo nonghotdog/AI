@@ -161,9 +161,8 @@ st.code('''
 st.divider()
 
 st.write("# Timeline Accuracy & Hardware Details")
-video_file = open("graphic/vid/envidence.mkv", "rb")
-video_bytes = video_file.read()
-st.video(video_bytes)
+st.video("https://youtu.be/Qon2JsmcW6g?si=NraX6nMCF9BQDPp7")
+
 border, = st.columns(1)
 border.metric("Model Accuracy", "81.25 %", border=True)
 border.metric("Test Accuracy", "79.62 %", "-1.63 %", border=True)
