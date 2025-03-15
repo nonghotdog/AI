@@ -2,8 +2,8 @@
 
 1. Dataset 2 ชุด สำหรับทั้ง 2 โปรเจค
 
-   - https://www.kaggle.com/datasets/utkarshsaxenadn/animal-image-classification-dataset
-   - https://www.kaggle.com/datasets/utkarshsaxenadn/animal-image-classification-dataset
+   - Machine Learning (https://www.kaggle.com/datasets/amitvkulkarni/lifestyle-factors-influencing-osteoporosis)
+   - Deep learning https://www.kaggle.com/datasets/utkarshsaxenadn/animal-image-classification-dataset
 
 2. Code สำหรับการ train model ทั้ง 2  โปรเจค
    
