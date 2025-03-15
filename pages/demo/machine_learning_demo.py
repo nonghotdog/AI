@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # โหลดโมเดล
-model_rf = joblib.load("model\model_RandomForestClassifier.pkl")
-model_lr = joblib.load("model\model_LogisticRegression.pkl")
+model_rf = joblib.load("model/model_RandomForestClassifier.pkl")
+model_lr = joblib.load("model/model_LogisticRegression.pkl")
 
 
 st.write("# Osteoporosis Predictor")
