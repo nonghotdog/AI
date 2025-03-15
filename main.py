@@ -1,11 +1,6 @@
 import os
 import streamlit as st
 
-st.set_page_config(page_title="6604062610519 Intelligent System Project", page_icon=":computer:", layout="wide")
-
-def SideBar():
-    st.navigation(tabs).run()
-
 tabs = {
     "Desciption": [
         st.Page('pages/description/machine_learning_description.py', title="Machine Learning"),
@@ -16,3 +11,10 @@ tabs = {
         st.Page("pages/demo/deep_learning_demo.py", title="Neural Network"),
     ],
 }
+
+def aSideBar():
+    st.navigation(tabs).run()
+
+st.set_page_config(page_title="6604062610519 Intelligent System Project", page_icon=":computer:", layout="wide")
+aSideBar()
+
