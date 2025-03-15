@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 from PIL import Image
 
-model = tf.keras.models.load_model('model\savePointAnimals.h5')
+model = tf.keras.models.load_model('model/savePointAnimals.h5')
 
 class_labels = [
     'Beetle', 'Butterfly', 'Cat', 'Cow', 'Dog', 'Elephant', 'Gorilla', 'Hippo', 'Lizard', 'Monkey', 'Mouse', 'Panda', 'Spider', 'Tiger', 'Zebra'

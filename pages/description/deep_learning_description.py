@@ -45,9 +45,9 @@ d.metric("Testing ", "2,000 รูป", border=True)
 
 st.write('2. ทำการ Download dataset จาก :blue[Kaggle] ได้ .zip แล้ว extract folder ไปยัง path เดียวกับ .py แล้วทำการ assign ใส่ตัวแปร')
 st.code('''
-    train_dir = 'datasets\Training Data\Training Data'
-    validation_dir = 'datasets\Validation Data\Validation Data'
-    test_dir = 'datasets\Testing Data\Testing Data' '''
+    train_dir = 'datasets/Training Data/Training Data'
+    validation_dir = 'datasets/Validation Data/Validation Data'
+    test_dir = 'datasets/Testing Data/Testing Data' '''
 , language="python")
 
 st.write('''3. กำหนด batch training ปรับ pixel ให้อยู่ใน range 0-1 และเพิ่มตัว augmentation เพื่อความหลากหลาย จะได้ไม่ overfit ดีกับ unseen data''')

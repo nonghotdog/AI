@@ -8,7 +8,7 @@ st.divider()
 
 st.write('''## คือ :orange[Model] อะไร ?''')
 q,w,e = st.columns(3)
-w.image("graphic\pic\ml.gif")
+w.image("graphic/pic/ml.gif")
 st.write('''### :orange[Osteoporosis Predictor] ถูกพัฒนามาเพื่อ:orange[คาดการความเสี่ยง]ที่จะเป็น :red[\"โรคกระดูกพรุน\"] รายบุคล''')
 st.divider()
 
@@ -47,7 +47,7 @@ with b:
     with c2:
         st.metric("Record", "1958 rows")
     st.write("# Example")
-    st.dataframe(pd.read_csv("model\pukpik.csv").head())
+    st.dataframe(pd.read_csv("model/pukpik.csv").head())
 
 
 
